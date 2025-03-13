@@ -6,14 +6,44 @@
     <title>Sacarias Granja</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    
 </head>
 <body>
     <div class="container">
         <!-- Side Navigation -->
         <nav class="side-nav">
-            <div class="logo">
+            <!-- <div class="logo">
                 <span>SG</span>
+            </div> -->
+
+            <div class="logo-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                    <!-- Definición del gradiente -->
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    
+                    <!-- Círculo de fondo -->
+                    <circle cx="100" cy="100" r="90" fill="url(#grad1)" />
+                    
+                    <!-- Letra S -->
+                    <path d="M70 70 C70 60, 90 55, 100 60 C110 65, 110 80, 100 85 C90 90, 70 95, 70 110 C70 125, 90 140, 110 130" 
+                          stroke="white" stroke-width="8" fill="none" stroke-linecap="round" />
+                    
+                    <!-- Letra G -->
+                    <path d="M130 70 C120 60, 100 70, 105 90 C110 110, 130 120, 145 110 L145 90 L125 90" 
+                          stroke="white" stroke-width="8" fill="none" stroke-linecap="round" />
+                    
+                    <!-- Elemento decorativo - línea horizontal -->
+                    <line x1="60" y1="140" x2="140" y2="140" stroke="white" stroke-width="4" stroke-linecap="round" />
+                </svg>
             </div>
+
             <ul class="nav-links">
                 <li><a href="#home" class="active"><i class="fas fa-home"></i><span>Home</span></a></li>
                 <li><a href="#projects"><i class="fas fa-code"></i><span>Projects</span></a></li>

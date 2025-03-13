@@ -11,6 +11,11 @@
     --accent-color: #00b4d8;
     --gray-color: #6c757d;
 }
+.icon
+{
+    height: 10px;
+    width: 300px;
+}
 
 * {
     margin: 0;
@@ -49,7 +54,7 @@ body {
     width: 200px;
 }
 
-.logo {
+/* .logo {
     width: 50px;
     height: 50px;
     background-color: var(--primary-color);
@@ -60,6 +65,16 @@ body {
     font-weight: 700;
     font-size: 1.2rem;
     margin-bottom: 2rem;
+} */
+.logo-container {
+    width: 60px;  /* Ajusta según necesites */
+    height: 60px;
+    margin: 10px auto;
+}
+
+.logo-container svg {
+    width: 100%;
+    height: 100%;
 }
 
 .nav-links {
