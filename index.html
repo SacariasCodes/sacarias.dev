@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacarias Granja</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Side Navigation -->
+        <nav class="side-nav">
+            <div class="logo">
+                <span>SG</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i><span>Home</span></a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i><span>Projects</span></a></li>
+                <li><a href="#skills"><i class="fas fa-cogs"></i><span>Skills</span></a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i><span>Experience</span></a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content">
+            <section id="home" class="hero">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
+                    <h2>Full-Stack Developer</h2>
+                    <p>Building digital experiences that make a difference.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">View Projects</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="shape"></div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="project-grid">
+                    <!-- Project Cards -->
+                    <div class="project-card">
+                        <div class="project-image" style="background-color: #9381ff;"></div>
+                        <div class="project-info">
+                            <h3>Project Name</h3>
+                            <p>Short description of the project and technologies used.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small">Demo</a>
+                                <a href="#" class="btn small outline">Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat for more projects -->
+                    <div class="project-card">
+                        <div class="project-image" style="background-color: #4cc9f0;"></div>
+                        <div class="project-info">
+                            <h3>Project Name</h3>
+                            <p>Short description of the project and technologies used.</p>
+                            <div class="project-tags">
+                                <span>Vue</span>
+                                <span>Express</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small">Demo</a>
+                                <a href="#" class="btn small outline">Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image" style="background-color: #f72585;"></div>
+                        <div class="project-info">
+                            <h3>Project Name</h3>
+                            <p>Short description of the project and technologies used.</p>
+                            <div class="project-tags">
+                                <span>Angular</span>
+                                <span>Firebase</span>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small">Demo</a>
+                                <a href="#" class="btn small outline">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <span>HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>React</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <span>Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>SQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Additional sections for Experience, Contact, etc. -->
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
