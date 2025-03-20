@@ -7,17 +7,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-
-    
 </head>
 <body>
     <div class="container">
         <!-- Side Navigation -->
         <nav class="side-nav">
-            <!-- <div class="logo">
-                <span>SG</span>
-            </div> -->
-
             <div class="logo-container">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
                     <!-- Definición del gradiente -->
@@ -130,6 +124,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class="project-card">
+                        <div class="project-image" style="background-color: #91ff00;"></div>
+                        <div class="project-info">
+                            <h3>Project Name</h3>
+                            <p>Short description of the project and technologies used.</p>
+                            <div class="project-tags">
+                                <span>Java</span>
+                                <span>C++</span>
+                                <span>C#</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small">Demo</a>
+                                <a href="#" class="btn small outline">Code</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -185,7 +195,118 @@
                 </div>
             </section>
             
-            <!-- Additional sections for Experience, Contact, etc. -->
+            <!-- Experience Section -->
+            <section id="experience" class="experience">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Senior Systems Engineer</h3>
+                            <h4>Tech Solutions Inc.</h4>
+                            <p>Led development of enterprise solutions for clients across multiple industries. Managed a team of 5 developers and implemented CI/CD practices that reduced deployment time by 35%.</p>
+                            <div class="project-tags">
+                                <span>Leadership</span>
+                                <span>CI/CD</span>
+                                <span>Cloud Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2018 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>Systems Engineer</h3>
+                            <h4>Digital Innovations LLC</h4>
+                            <p>Designed and implemented microservices architecture for e-commerce platforms. Optimized database performance resulting in 40% faster query response times.</p>
+                            <div class="project-tags">
+                                <span>Microservices</span>
+                                <span>AWS</span>
+                                <span>Database Optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2016 - 2018</div>
+                        <div class="timeline-content">
+                            <h3>Junior Developer</h3>
+                            <h4>Web Wizards Co.</h4>
+                            <p>Developed front-end interfaces for client websites and contributed to backend API development. Implemented responsive design principles across multiple projects.</p>
+                            <div class="project-tags">
+                                <span>UI/UX</span>
+                                <span>RESTful APIs</span>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact Section -->
+            <section id="contact" class="contact">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>sacariasuni@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Footer -->
+            <footer class="footer">
+                <p>&copy; 2025 Sacarias Granja Hurtado. All rights reserved.</p>
+            </footer>
         </main>
     </div>
 
